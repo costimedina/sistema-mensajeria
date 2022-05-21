@@ -1,0 +1,195 @@
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contenedor principal padre */  
+ 
+.contenedorGeneral {
+    display: flex;
+}
+
+/* Contenedor hijo de los usuarios */
+
+.usuariosGeneral{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: thin;
+    border-color: #BEC1BB;
+    width: 22%;
+}
+
+/* Apariencia usuario principal activo */
+
+.usuarioPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 5px 10px;
+    height: 10vh;
+}
+
+.contactoActivo{
+    display: flex;
+}
+
+.fotoActivo img{
+    border-radius: 100%;
+    width: 40px;
+    margin: 10px 10px 0 15px;    
+}
+
+.contactoTexto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+.contactoTexto h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 16px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
+
+.contactoTexto p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin-top: 0px;
+    color: #828485;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    margin: 8px;
+    color: #828485;
+}
+
+/* Apariencia boton nuevo chat */
+
+.cajaBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    border-top-width: thin;
+    border-top-style: solid;
+    border-color: #BEC1BB;
+}
+
+.cajaBoton button{
+    padding: 15px 60px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #a491d2;
+    border: none    
+}
+
+.cajaBoton button:hover{
+    background-color: #cdc3e6;
+    border: none;
+}
+
+.cajaBoton button:focus{
+    background-color: #bec1bb;
+    border: none;
+}
+
+/* Apariencia contactos secundarios inactivos */
+
+.listaContactos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactoInactivo{
+    display: flex;
+    align-items: center;
+    border-top-width: thin;
+    border-top-style: solid;
+    border-color: #BEC1BB;
+}
+
+.foto img{
+    text-align: left;
+    width: 60px;
+    border-radius: 100%;
+    margin: 20px 15px 15px 30px;
+ 
+}
+
+.usuarioTexto{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuarioTexto h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    font-size: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    color: #1B1F21;
+}
+
+.usuarioTexto p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    color: #444749
+}
+
+
+/* Contenedor hijo del chat */
+
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78%;
+}
+
+.contenedorChat{
+    display: flex;
+    flex-direction: column;
+}
+
+.chatImg{
+    display: flex;
+    justify-content: center;
+}
+
+.chatImg img{
+    width: 35%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.chatSlogan{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.chatSlogan h1{
+    margin-bottom: 5px;
+    font-size: 45px;
+    height: auto;
+    font-weight: 100;
+}
+
+.chatSlogan p{
+    font-size: 16px;
+    line-height: 25px;
+    width: 60%;
+    text-align: center;
+}
